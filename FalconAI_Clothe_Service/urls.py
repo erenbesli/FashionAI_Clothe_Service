@@ -17,7 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 
 
-from crawler import views
+from API import views
 from rest_framework.schemas import get_schema_view
 from rest_framework_swagger.views import get_swagger_view
 from django.conf.urls import include, url
